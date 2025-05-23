@@ -7,7 +7,7 @@
 </head>
 <body>
     <form>
-        <label for="userName">
+        <!-- <label for="userName">
             Name:
         </label>
         <input id="userName" type="text" maxlength="5" placeholder="Name" required>
@@ -38,8 +38,36 @@
         </select>
         <br>
         <input type="file">
-        <br>
+        <br> -->
         <!-- <input type="submit"> -->
+
+        <fieldset>
+            <legend>Personal Details</legend>
+            <label for="firstName">First Name : </label>
+            <br>
+            <input type="text" id="firstName" required>
+            <br>
+            <label for="lastName">Last Name : </label>
+            <br>
+            <input type="text" id="lastName" required>
+        </fieldset>
+
+        <fieldset>
+            <legend>Contact Details</legend>
+            <label for="userEmail">Email : </label>
+            <br>
+            <input type="email" id="userEmail" required>
+            <br>
+            <label for="userMobile">Mobile : </label>
+            <br>
+            <input type="tel" id="userMobile">
+            <br>
+            <label for="userTele">Telephone :</label>
+            <br>
+            <input type="tel" id="userTele">
+        </fieldset>
+
+        <br>
         <button type="submit">Submit Form</button>
     </form>
 </body>
