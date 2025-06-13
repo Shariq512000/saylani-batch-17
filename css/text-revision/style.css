@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Shizuru&display=swap');
+@font-face {
+    font-family: 'Abc';
+    src: url('font/Ephesis-Regular.ttf');
+}
+@font-face {
+    font-family: 'Xyz';
+    src: url('font/LXGWMarkerGothic-Regular.ttf');
+}
+h1{
+    /* font-family: 'Abc'; */
+    /* font-weight: 900; */
+    font-size: 50px;
+    /* text-decoration: line-through; */
+    text-decoration: none;
+}
+p{
+    /* font-family: "Shizuru", system-ui; */
+    text-transform: capitalize;
+    font-style: italic;
+    font-size: 12px;
+    /* line-height: 200%; */
+    /* line-height: 24px; */
+    /* letter-spacing: 10px; */
+    word-spacing: 20px;
+}
+a{
+    text-decoration: none;
+}
