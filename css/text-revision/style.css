@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Shizuru&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Shizuru&display=swap'); */
 @font-face {
     font-family: 'Abc';
     src: url('font/Ephesis-Regular.ttf');
@@ -8,11 +8,14 @@
     src: url('font/LXGWMarkerGothic-Regular.ttf');
 }
 h1{
-    /* font-family: 'Abc'; */
+    /* font-family: 'Shizuru'; */
     /* font-weight: 900; */
     font-size: 50px;
     /* text-decoration: line-through; */
+    text-align: center;
     text-decoration: none;
+    text-shadow: 10px 10px 5px rgba(255,0,0,0.3);
+    /* /////     L-R  T-B  Blur  COLOR*/
 }
 p{
     /* font-family: "Shizuru", system-ui; */
@@ -22,8 +25,50 @@ p{
     /* line-height: 200%; */
     /* line-height: 24px; */
     /* letter-spacing: 10px; */
-    word-spacing: 20px;
+    /* word-spacing: 20px; */
+    /* text-indent: 100px; */
+    
 }
+p:first-letter{
+    font-size: 24px;
+    color: blue;
+}
+p:first-line{
+    color: red;
+}
+/* p span{
+    vertical-align: text-top;
+} */
 a{
     text-decoration: none;
+}
+/* a:link{
+    color: green;
+}
+a:visited{
+    color: red;
+} */
+
+button{
+    background-color: blue;
+    color: white;
+}
+button:hover{
+    background-color: white;
+    color: blue;
+}
+button:active{
+    background-color: red;
+    color: white;
+}
+/* :focus ??? */
+/* h1:hover{
+    color: yellow;
+} */
+
+input{
+    color: green;
+}
+input:focus{
+    color: red;
 }
