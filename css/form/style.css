@@ -1,0 +1,16 @@
+form button{
+    background-color: #b9e4e3;
+    color: #444444;
+    border: none;
+    padding: 5px 15px;
+    border-radius: 6px;
+    transition: all 0.5s ease-in-out;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+form button:hover{
+    box-shadow: 8px 8px 10px rgba(0,0,0,0.5);
+    margin-top: 12px;
+    margin-left: 12px;
+}
