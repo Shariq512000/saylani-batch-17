@@ -14,3 +14,23 @@ form button:hover{
     margin-top: 12px;
     margin-left: 12px;
 }
+
+fieldset{
+    border: 1px solid red;
+}
+
+legend{
+    background-color: rgb(189, 189, 189);
+    padding: 5px 10px;
+    border-radius: 8px;
+}
+
+input{
+    border: 1px solid purple;
+    cursor: url('star.png'), pointer;
+}
+
+input:focus{
+    outline: none;
+    border-color: red;
+}

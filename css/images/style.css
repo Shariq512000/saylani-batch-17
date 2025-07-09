@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* body{
+    background-color: black;
+    color: white;
+} */
+
+#img1{
+    width: 500px;
+    height: 500px;
+}
+
+#img2{
+    width: 250px;
+    height: 250px;
+}
+
+#img3{
+    width: 125px;
+    height: 125px;
+}
+
+.mainContainer{
+    /* background-color: blue; */
+    height: 100vh;
+        /* //view height */
+    /* background-image: url("star.png");
+    background-repeat: no-repeat; */
+    /* background-image: url("apple.jpg"); */
+    /* background-size: cover; */
+    /* background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed; */
+    /* background-image: linear-gradient(red, yellow,blue, green); */
+    background-image: linear-gradient(to right, rgba(255,0,0,0) 20%, rgba(255,0,0,1));
+    /* background-image: repeating-linear-gradient(red, yellow 10%, green 20%); */
+}
