@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    padding: 20px;
+    background-color: purple;
+    /* column-gap: 10px;
+    row-gap: 10px; */
+    gap: 10px;
+    flex-wrap: wrap;
+    height: 100vh;
+    /* align-items: center; */
+}
+
+.items{
+    height: 200px;
+    width: 200px;
+    background-color: orange;
+    font-size: 30px;
+    flex-shrink: 0;
+    /* flex-grow: 1; */
+}
+
+#item2{
+   order: 2;
+   /* flex-grow: 2; */
+}
+
+#item4{
+    order: 1;
+    align-self: flex-end;
+    /* flex-shrink: 2; */
+    /* flex-grow: 3; */
+}
