@@ -1,0 +1,40 @@
+.box1{
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    background-color: red;
+    font-size: 45px;
+    transform: scale(1.2);
+}
+
+.box2{
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    background-color: blue;
+    font-size: 45px;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 20px;
+}
+
+nav ul li{
+    color: #000;
+    font-size: 25px;
+    cursor: pointer;
+    /* transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+    transition-delay: 1s; */
+    transition: all 1s ease;
+}
+
+nav ul li:hover{
+    /* font-size: 35px; */
+    color: yellow;
+    transform: scale(2);
+}
