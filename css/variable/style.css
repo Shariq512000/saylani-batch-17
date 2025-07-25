@@ -1,0 +1,30 @@
+:root{
+    --theme-color:#6E2CF2;
+    --secondary-color: black;
+}
+
+.box1{
+    width: 200px;
+    height: 200px;
+    /* background-color: var(--theme-color); */
+    background-image: linear-gradient(to right, var(--theme-color), var(--secondary-color));
+    margin-bottom: 20px;
+}
+
+.box2{
+    width: 400px;
+    height: 400px;
+    background-color: var(--theme-color);
+}
+
+p{
+    color: var(--theme-color);
+}
+
+.btn{
+    border: 1px solid black;
+    width: 80px;
+    height: 80px;
+    background-color: var(--theme-color);
+    color: var(--secondary-color);
+}
