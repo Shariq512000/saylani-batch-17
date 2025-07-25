@@ -21,11 +21,9 @@
     /* animation-name: abc;
     animation-duration: 6s; */
 }
-
 body{
     overflow-x: hidden;
 }
-
 h1{
     font-size: 45px;
     /* animation-name: headingAnimation;
@@ -41,7 +39,6 @@ p{
     animation-fill-mode: backwards;
     animation-delay: 2s; */
 }
-
 .container{
     display: flex;
 }
@@ -50,7 +47,6 @@ p{
     animation-duration: 3s;
     /* flex-grow: 1; */
 }
-
 .containerImg{
     width: 1500px;
     animation-name: imageAnimation;

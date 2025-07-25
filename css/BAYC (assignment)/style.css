@@ -138,3 +138,115 @@ header nav a:hover{
     padding: 15px;
     margin-top: 30px;
 }
+
+    /* Checking Screen Size 1401 */
+@media screen and (max-width: 1660px) {
+    body{
+        padding: 0 70px;
+    }
+}
+    /* Checking Screen Size 1201 */
+@media screen and (max-width: 1400px) {
+    
+}
+    /* Checking Screen Size 993 */
+@media screen and (max-width: 1200px) {
+    body{
+        padding: 0 50px;
+    }
+    .section1 .section1-content h2 {
+        font-size: 25px;
+    }
+    .section1 .section1-content p {
+        font-size: 14px;
+    }
+    .section2 .left-content h3 {
+        font-size: 24px;
+    }
+    .section2 .left-content p {
+        font-size: 15px;
+    }
+    .section2 .left-content p {
+        font-size: 13px;
+    }
+    .section3 .middle-content p {
+        font-size: 14px;
+    }
+    .section3 .right-content button {
+        width: 170px;
+        font-size: 14px;
+    }
+    .section1 .section1-images .img-wraper img {
+        width: 150px;
+    }
+}
+    /* Checking Screen Size 769 */
+@media screen and (max-width: 992px) {
+    .section1 .section1-content {
+        padding-right: 30px;
+    }
+    .section1 .section1-content h2 {
+        font-size: 23px;
+    }
+    .section1 .section1-content p {
+        margin-top: 15px;
+        font-size: 13px;
+    }
+    .section3 .left-content h1 {
+        font-size: 20px;
+    }
+    .section3 .middle-content p {
+        font-size: 12px;
+    }
+    .section3 .right-content button {
+        width: 150px;
+        font-size: 12px;
+    }
+}
+    /* Checking Screen Size 577 */
+@media screen and (max-width: 768px) {
+    body {
+        padding: 0 20px;
+    }
+    header{
+        flex-direction: column;
+        padding-bottom: 20px;
+        /* display: none; */
+    }
+    .section1 {
+        padding-top: 20px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .section1 .section1-content {
+        padding-right: 0;
+        padding-bottom: 20px;
+    }
+    .section2 {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .section2 .left-content{
+        padding-bottom: 20px;
+    }
+    .section3 .left-content h1 {
+        font-size: 16px;
+    }
+    .section3 .middle-content p {
+        font-size: 10px;
+    }
+    .section3 .right-content button {
+        width: 120px;
+        font-size: 10px;
+    }
+}
+    /* Checking Screen Size 12 pro */
+@media screen and (max-width: 576px) {
+    header nav a {
+        font-size: 8px;
+    }
+    .section3 {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
