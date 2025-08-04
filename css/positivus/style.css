@@ -137,17 +137,20 @@ nav ul a:hover{
 }
 
 .services .service-boxes{
-    display: flex;
+    display: grid;
+    padding-top: 80px;
+    grid-template-columns: 1fr 1fr;
     gap: 40px;
-    flex-wrap: wrap;
 }
 
 .service-boxes .service-box{
     border-radius: 45px;
+    transition: all 0.4s ease-in-out;
     border: 1px solid var(--secondaryColor);
 }
 .service-box{
     display: flex;
+    justify-content: space-between;
     padding: 50px;
     background-color: var(--themeGray);
 }
@@ -184,4 +187,16 @@ nav ul a:hover{
 .card-btn .btn-text{
     font-size: 20px;
     color: var(--secondaryColor);
+}
+
+.service-box:hover{
+    background-color: var(--themeColor);
+}
+
+.service-box h3{
+    transition: all 0.4s ease-in-out;
+}
+
+.service-box:hover h3{
+    background-color: #ffffff;
 }
