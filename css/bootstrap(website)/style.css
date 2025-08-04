@@ -1,0 +1,7 @@
+.bannerSection{
+    height: calc(100vh - 56px);
+}
+
+.bannerSection img{
+    width: 100%;
+}

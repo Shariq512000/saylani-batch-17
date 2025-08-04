@@ -6,3 +6,8 @@
     background-color: red;
     height: 100vh;
 }
+
+.items{
+    height: 200px;
+    background-color: blue;
+}

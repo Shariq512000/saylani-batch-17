@@ -1,0 +1,187 @@
+@font-face {
+    font-family: 'Space Grotesk';
+    src: url('assets/fonts/SpaceGrotesk-VariableFont_wght.ttf');
+}
+
+:root{
+    --themeColor: #B9FF66;
+    --secondaryColor: #191A23;
+    --themeGray: #F3F3F3;
+
+}
+
+img{
+    width: 100%;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Space Grotesk';
+    padding: 66px 100px;
+}
+h1{
+    font-size: 60px;
+}
+h2{
+    font-size: 40px;
+}
+h3{
+    font-size: 30px;
+}
+p{
+    font-size: 18px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 40px;
+}
+
+nav ul a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    /* display: inline-block; */
+    transition: all 0.4s ease-in-out;
+}
+
+nav ul a:hover{
+    /* transform: scale(2); */
+    /* transform: scale(2); */
+    color: var(--themeColor);
+}
+
+.nav-btn{
+    padding: 20px 35px;
+    border-radius: 14px;
+    border: 1px solid black;
+}
+
+.banner{
+    padding: 70px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.banner-content{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.banner-content h1{
+
+}
+.banner-content p{
+    line-height: 28px;
+    font-size: 20px;
+}
+
+.theme-btn{
+    color: #ffffff;
+    font-size: 20px;
+    padding: 20px 35px;
+    background-color: var(--secondaryColor);
+    border-radius: 14px;
+    transition: all 0.4s ease-in-out;
+    cursor: pointer;
+}
+
+.theme-btn:hover{
+    background-color: var(--themeColor);
+    color: var(--secondaryColor);
+}
+
+.sponser ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+
+.sponser img{
+    filter: grayscale(1);
+    transition: all 0.4s ease-in-out;
+    cursor: pointer;
+}
+
+.sponser img:hover{
+    filter: grayscale(0);
+}
+
+.services{
+    padding-top: 140px;
+}
+
+.services .serverSec-heading{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.serverSec-heading h2{
+    border-radius: 5px;
+    padding: 7px;
+    background-color: var(--themeColor);
+}
+
+.services .service-boxes{
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.service-boxes .service-box{
+    border-radius: 45px;
+    border: 1px solid var(--secondaryColor);
+}
+.service-box{
+    display: flex;
+    padding: 50px;
+    background-color: var(--themeGray);
+}
+.service-box .left-sec{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.service-box .left-sec h3{
+    width: fit-content;
+    background-color: var(--themeColor);
+    padding: 3px;
+    border-radius: 5px;
+}
+
+.service-box .left-sec .card-btn{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.card-btn .btn-logo{
+    width: 41px;
+    height: 41px;
+    background-color: var(--secondaryColor);
+    border-radius: 50%;
+    color: var(--themeColor);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-btn .btn-text{
+    font-size: 20px;
+    color: var(--secondaryColor);
+}
