@@ -1,24 +1,39 @@
 /// Calculator App ///
 
-let score = 80;
+// let score = 90;
 
-if(score >= 80){
-    alert("A+")
-}else if(score >= 70){
-    alert("A")
-}else if(score >= 60){
-    alert("B")
-}else if(score >= 50){
-    alert("C")
-}else if(score >= 40){
-    alert("D")
-}else if(score >= 33){
-    alert("E")
-}else{
-    alert("F")
-}
+// if(score >= 80){
+//     alert("A+")
+// }else if(score >= 70){
+//     alert("A")
+// }else if(score >= 60){
+//     alert("B")
+// }else if(score >= 50){
+//     alert("C")
+// }else if(score >= 40){
+//     alert("D")
+// }else if(score >= 33){
+//     alert("E")
+// }else{
+//     alert("F")   
+// }
+// if(score >= 80){
+//     alert("A+")
+// }else if(score >= 70){
+//     alert("A")
+// }else if(score >= 60){
+//     alert("B")
+// }else if(score >= 50){
+//     alert("C")
+// }else if(score >= 40){
+//     alert("D")
+// }else if(score >= 33){
+//     alert("E")
+// }else{
+//     alert("F")
+// }
 
-alert("END OF CONDITION")
+// alert("END OF CONDITION")
 
 // let num1 = prompt("Enter First Number", "1");   // String "3"
 // let num2 = prompt("Enter Second Number", "1"); // String  "3"
@@ -84,3 +99,29 @@ alert("END OF CONDITION")
 // }
 
 // alert("Your Score is " + score)
+
+
+/// Question Number 1 ///
+//  a
+// let ans1 = prompt("What does HTML stand for? \n a)Hyperlinks and Text Markup Language \n b)Hyper Text Markup Language \n c)Home Tool Markup Language")
+
+// if(ans1 == "b"){
+//     alert("Correct Answer")
+// }else{
+//     alert("Wrong Answer")
+// }
+
+
+// ==
+// ===
+// >
+// <
+// <=
+// >=
+// !==
+// !=
+
+// PKR   USD
+// if(5 !== "5"){
+    
+// }
