@@ -6,31 +6,36 @@
     <title>Function</title>
 </head>
 <body>
-    <label for="">
-        Total Marks Of Math:<input type="number">
-    </label>
-    <br>
-    <label for="">
-        Obtained Marks Of Math:<input type="number">
-    </label>
-    <br>
-    <label for="">
-        Total Marks Of Physics:<input type="number">
-    </label>
-    <br>
-    <label for="">
-        Obtained Marks Of Physics:<input type="number">
-    </label>
-    <br>
-    <label for="">
-        Total Marks Of Chemistry:<input type="number">
-    </label>
-    <br>
-    <label for="">
-        Obtained Marks Of Chemistry:<input type="number">
-    </label>
-    <br>
-    <button onclick="hello()">Run Function</button>
+    <form onsubmit="hello(); return false">
+        <label for="">
+            Total Marks Of Math:<input type="number" id="totalMath" required>
+        </label>
+        <br>
+        <label for="">
+            Obtained Marks Of Math:<input type="number" id="obtainMath" required>
+        </label>
+        <br>
+        <label for="">
+            Total Marks Of Physics:<input type="number" id="totalPhysics" required>
+        </label>
+        <br>
+        <label for="">
+            Obtained Marks Of Physics:<input type="number" id="obtainPhysics" required>
+        </label>
+        <br>
+        <label for="">
+            Total Marks Of Chemistry:<input type="number" id="totalChemistry" required>
+        </label>
+        <br>
+        <label for="">
+            Obtained Marks Of Chemistry:<input type="number" id="obtainChemistry" required>
+        </label>
+        <br>
+        <button type="submit">Run Function</button>
+    </form>
+
+    <div id="result">TEST DEFAULT TEXT</div>
+
     <script src="script.js"></script>
 </body>
 </html>

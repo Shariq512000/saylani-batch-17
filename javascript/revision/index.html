@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .result{
+            background-color: rgba(0, 200, 0, 0.4);
+        }
+    </style>
+</head>
+<body>
+    <form onsubmit="hello(); return false">
+        <label for="">
+            Name:
+            <input type="text" id="userName" required>
+        </label>
+        <br>
+
+        <label for="">
+            Course:
+            <select id="course" required>
+                <option value="" disabled selected>--- Select Course ---</option>
+                <option value="web">Web Development</option>
+                <option value="graphics">Graphic Designing</option>
+                <option value="ai">Ai & Data Science</option>
+            </select>
+        </label>
+
+        <br>
+
+        <label for="">
+            Roll Number:
+            <input type="text" id="rollNumber" required>
+        </label>
+        <br>
+        <button>Submit Form</button>
+    </form>
+
+    <div class="result" id="result"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
