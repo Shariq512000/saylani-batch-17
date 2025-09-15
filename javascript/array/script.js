@@ -16,6 +16,23 @@ let cities = ["Karachi", "Lahore", "Quetta", "Islamabad", "Rawalpindi", "Peshawa
         // Starting index, number of remove, add item/items
 // cities.splice(0, 0, "Hydrabad", "Gwadar")
 
+
+// cities.pop()
+// cities.pop()
+// cities.push("Ziyarat")
+// cities.shift()
+// cities.unshift("Ziyarat", "Hydrabad")
+// cities.splice(1,0, "Ziyarat", "Hydrabad")
+
+let newArr3 = cities.slice(0,3)
+
+let newArr2 = []
+
+newArr2[0] = "newVal"
+newArr2[1] = "newVal2"
+console.log("newArr2", newArr2)
+// alert(cities[6])
+
 // cities[1]
 
 let newArr = cities.slice(0,3)
