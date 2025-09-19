@@ -6,15 +6,16 @@
 
 let cities = ["Karachi", "Lahore", "Islamabad", "Rawalpindi", "Hydrabad"]
 console.log(cities.length);
-let userCity = "Karachi";
+let userCity = "Hydrabad";
 
 let isMatched = false
 
 for(let i=0; i < cities.length; i++){
+    console.log(cities[i])
     if(userCity == cities[i]){
-        isMatched = true
+        isMatched = true;
+        break;
     }
-    // console.log(cities[i])
 }
 
 if(isMatched == true){
