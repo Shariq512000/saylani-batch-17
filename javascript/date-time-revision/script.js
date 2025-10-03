@@ -1,4 +1,4 @@
-let today = new Date();
+let today = new Date("June 10, 2015");
 
 let week = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
 let months = ["January", "Febuary", "March", "April", "May", "June", "July", "August", "September", "Octuber", "November", "December"]
@@ -24,7 +24,6 @@ let time = today.getTime();
 // if(){}else{}
 
 console.log(`${(date < 10) ? `0${date}` : date} ${months[numberOfMonth]} ${year} ${hour}:${minutes}:${seconds}`)
-
 
 // console.log(time);
 
