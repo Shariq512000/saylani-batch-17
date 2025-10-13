@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <!-- <input type="text" onfocus="style.backgroundColor = 'red'" onblur="style.backgroundColor = 'white'"> -->
+
+    <form onsubmit="return false">
+        <!-- <label for="">
+            Name: <input required id="userName" type="text" placeholder="Enter Your Name">
+        </label> -->
+        <label for="">
+            Zip Code: <input type="text" id="zipCode" onblur="getCity()">
+        </label>
+        <br>
+        <label for="">
+            City Name: <input type="text" id="cityName">
+        </label>
+        <br>
+        <button>Submit</button>
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>
