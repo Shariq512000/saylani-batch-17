@@ -1,0 +1,12 @@
+:root{
+    --background-theme: #fff;
+}
+
+.darkMode{
+    --background-theme: #000;
+}
+
+body{
+    background-color: var(--background-theme);
+    transition: all 0.4s ease-in-out;
+}
