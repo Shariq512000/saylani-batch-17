@@ -48,12 +48,12 @@ let plans = [plan, plan2, plan3];
 let date = new Date();
 let currentMonth = date.getMonth();
 
-for(let i = 0; i < plans.length; i++){
-    let currentPrice = plans[i].price
-    if(currentMonth)
-    // console.log(`The Cost Of ${plans[i].name} Plan is $${plans[i].price} per month`)
-    lis += `<li>The Cost Of ${plans[i].name} Plan is $${currentPrice} per month</li>`
-}
+// for(let i = 0; i < plans.length; i++){
+//     let currentPrice = plans[i].price
+//     if(currentMonth)
+//     // console.log(`The Cost Of ${plans[i].name} Plan is $${plans[i].price} per month`)
+//     lis += `<li>The Cost Of ${plans[i].name} Plan is $${currentPrice} per month</li>`
+// }
 
 // document.getElementById("plans").innerHTML = lis
 
