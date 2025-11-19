@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generator Function</title>
+</head>
+<body>
+    
+    <script>
+        function* genNumber(){
+            yield 1;
+            yield 2;
+            yield 3
+        }
+        let generatedNum = genNumber();
+        console.log(generatedNum.next())
+        console.log("clg1")
+        console.log("clg2")
+        console.log("clg3")
+        console.log("clg4")
+        console.log("clg5")
+        console.log("clg6")
+        console.log(generatedNum.next())
+    </script>
+</body>
+</html>

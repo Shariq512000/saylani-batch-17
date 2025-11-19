@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classes</title>
+</head>
+<body>
+    
+    <script>
+        class Student{
+            constructor(studentName, id, batch){
+                this.studentName = studentName
+                this.id = id
+                this.batch = batch
+            }
+            showName(){
+                return this.studentName
+            }
+        }
+
+        class WebStudent extends Student{
+            constructor(studentName, id, batch, github, projects){
+                super(studentName, id, batch)
+                this.github = github
+                this.projects = projects
+            }
+            showId(){
+                return this.github
+            }
+        }
+
+        let student1 = new WebStudent("John", 123, 17, "john321", ["project1", "project2", "project3"])
+        let student2 = new Student("John1", 124, 17)
+        console.log(student1)
+        console.log(student2)
+    </script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Higher Order Function</title>
+</head>
+<body>
+    
+    <script>
+        const highFunction = (name, age, cb) => {
+            console.log(name, age);
+            setTimeout(() => {
+                cb()
+            }, 2000)
+        }
+
+        const innerFunc = () => {
+            console.log("Done")
+        }
+
+        highFunction("John", 25, innerFunc)
+    </script>
+</body>
+</html>
