@@ -1,15 +1,15 @@
-let localArr = localStorage.getItem("students")
+// localStorage.setItem("key", "value123")
+// localStorage.setItem("key1", "value123")
 
-console.log(localArr)
+// console.log(localStorage.getItem("key1"))
 
+// localStorage.removeItem("key1")
+
+// localStorage.clear()
+
+let localArr = localStorage.getItem("students");
 
 let students = (localArr) ? JSON.parse(localArr) : [];
-
-// if(localArr){
-//     students = JSON.parse(localArr)
-// }
-
-console.log(students)
 
 const addUser = () => {
     let studentName = document.getElementById("studentName").value;
@@ -30,23 +30,24 @@ const addUser = () => {
     printUser()
 }
 
-// let arr = [
-//     {"studentName": "Test","rollNumber": "123","batch": "17"},
-//     {"studentName": "Test2","rollNumber": "123","batch": "17"},
-//     {"studentName": "Test3","rollNumber": "123","batch": "17"},
-//     {"studentName": "Test4","rollNumber": "123","batch": "17"},
-//     {"studentName": "Test 5","rollNumber": "321","batch": "18"}
-// ]
-
-// for(let i of arr){
-//     console.log(i)
-// }
+const deleteUser = (rollNumber) => {
+    let newArr = students.filter(eachStudent => eachStudent.rollNumber != rollNumber)
+    students = newArr;
+    localStorage.setItem("students", JSON.stringify(students))
+    printUser()
+}
 
 const printUser = () => {
     let lis = "";
     for(let a of students){
         lis += `<div class="card">
-            <div class="title">Student ID Card</div>
+            <div class="title">
+                <h6>Student ID Card </h6>
+                <div class="actionBtn">
+                    <button>Edit</button>
+                    <button onclick="deleteUser(${a.rollNumber})">Delete</button>
+                </div>
+            </div>
 
             <div class="field"><span class="label">Name:</span> ${a.studentName}</div>
             <div class="field"><span class="label">Roll Number:</span> ${a.rollNumber}</div>
@@ -59,6 +60,18 @@ const printUser = () => {
 
 printUser()
 
+
+// let arr = [{rollNumber: 2}, {rollNumber: 4}, {rollNumber: 3}, {rollNumber: 1}]
+
+// let filteredArr = arr.filter((eachItem) => eachItem.rollNumber != 3);
+// [
+//     {rollNumber: 2},
+//     {rollNumber: 4},
+//     {rollNumber: 1}
+// ]
+// console.log(filteredArr)
+
+// arr.splice(2, 1)
 
 // const setItemOnStorage = () => {
 //     let userName = document.getElementById("userName").value
